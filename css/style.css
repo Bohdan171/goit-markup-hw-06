@@ -354,8 +354,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-grey);
 }
-.checkbox-input:focus,
-+ .checkbox-icon {
+.checkbox-input:focus + .checkbox-icon {
   outline: 1px solid var(--brand-blue-btn);
 }
 .checkbox-text-decoration {
